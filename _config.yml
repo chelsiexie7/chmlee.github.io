@@ -1,0 +1,112 @@
+# Site settings
+title: Chi is here
+SEOTitle: Chi Blog | 阿驰附近
+header-img: img/home-bg.jpg
+email: chelsiexie7@gmail.com
+description: "Stay Alive. Enjoy yourself."
+keyword: "Chi, Counselling Psychology, Credible Peers, Study Group, 阿驰, 学习小组, 咨询心理学"
+url: "http://chelsiexie7.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/chelsiexie7/chelsiexie7.github.io.git" # you code repository 
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Keeping the perosnal part is the prerequisite for being professional."
+sidebar-avatar: /img/portrait.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+douban_username:   查查查查查尔斯 #没有办法显示？
+zhihu_username:     阿驰
+facebook_username:  Chi Xie
+instagram_username:   chichichithanks #没有办法显示？
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: qiubaiying
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 99af224f819012706e4d                            #生成的clientID
+  clientSecret: 8749f7b9f99618d0afb4be1420cb1267cbed1f3d    #生成的clientSecret
+  repo: chelsiexie7.github.io    #仓库名称
+  owner: chelsiexie7    #github用户名
+  admin: chelsiexie7
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: cde6b77f0fb08bce30f2bf3caa31d508
+
+# Google Analytics
+ga_track_id: 'UA-164973023-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "ACHPPI",
+        href: "http://achppi.org"
+    },{
+        title: "OHS",
+        href: "https://onehealingspace.com"
+    },{
+        title: "ADRLab",
+        href: "http://adrlab.weebly.com"
+    },{
+        title: "心理咨询成长小组",
+        href: "https://www.douban.com/group/691249/"
+    }
+]
